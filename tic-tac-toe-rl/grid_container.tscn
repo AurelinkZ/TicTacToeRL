@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://ddr1d8d1602jb"]
+
+[ext_resource type="Script" uid="uid://dklbjc1gqqifc" path="res://grid_game.gd" id="1_gwmu0"]
+[ext_resource type="Texture2D" uid="uid://ubw086uc4niu" path="res://background_asset.png" id="1_rxlgd"]
+
+[node name="Node" type="Node" unique_id=885014102]
+
+[node name="GridGame" type="GridContainer" parent="." unique_id=523638698]
+top_level = true
+z_index = 1
+custom_minimum_size = Vector2(450, 450)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -225.0
+offset_top = -225.0
+offset_right = 225.0
+offset_bottom = 225.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 3
+script = ExtResource("1_gwmu0")
+
+[node name="Button" type="Button" parent="GridGame" unique_id=181363389]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button2" type="Button" parent="GridGame" unique_id=1726609620]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button3" type="Button" parent="GridGame" unique_id=1672707513]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button4" type="Button" parent="GridGame" unique_id=1819103152]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button5" type="Button" parent="GridGame" unique_id=1602087063]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button6" type="Button" parent="GridGame" unique_id=1365071871]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button7" type="Button" parent="GridGame" unique_id=27804736]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button8" type="Button" parent="GridGame" unique_id=1038779083]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button9" type="Button" parent="GridGame" unique_id=1023218751]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="BackgroundAsset" type="Sprite2D" parent="." unique_id=1631170177]
+show_behind_parent = true
+position = Vector2(575.99994, 324)
+scale = Vector2(0.59999996, 0.59999996)
+texture = ExtResource("1_rxlgd")
